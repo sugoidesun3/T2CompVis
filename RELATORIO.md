@@ -35,9 +35,11 @@ Essa é uma imagem extremamente distorcida, mais do que uma câmera web de baixa
 qualidade, mas serve bem para esse exemplo.
 
 - Entrada:
+
 ![Entrada 5x7.jpg](./imagens/input/5x7.jpg)
 
 - Saída:
+
 ![Saída 5x7.jpg](./imagens/output/arrumada_5x7.jpg)
 
 O resultado obtido era o esperado, o algoritmo pegou bem os cantos do tabuleiro
@@ -49,9 +51,11 @@ o que faz sentido já que a informação do tabuleiro foi "comprimida".
 Essa é uma imagem bem similar à anterior, mas com uma distorção ainda maior.
 
 - Entrada:
+
 ![Entrada 6x9.jpg](./imagens/input/6x9.jpg)
 
 - Saída:
+
 ![Saída 6x9.jpg](./imagens/output/arrumada_6x9.jpg)
 
 Por algum motivo desconhecido, mesmo repetidos experimentos, a imagem após o
@@ -64,9 +68,11 @@ Essa é particularmente interessante pois estava no tutorial de calibração de
 câmera do OpenCV, mas com a distorção já removida!
 
 - Entrada:
+
 ![Entrada 7x6.jpg](./imagens/input/7x6.jpg)
 
 - Saída:
+
 ![Saída 7x6.jpg](./imagens/output/arrumada_7x6.jpg)
 
 Após "arrumar" a distorção da imagem, por mais que o meio aparentemente não
@@ -90,9 +96,11 @@ Tem uma imagem que tentei ajustar utilizando a matriz da imagem `6x9.jpg`,
 que julguei similar o suficiente, o resultado foi o seguinte:
 
 - Entrada:
+
 ![Entrada](./aha.jpg)
 
 - Saída:
+
 ![Saída](./exp.jpg)
 
 Realmente parte da distorção se foi, então "no olhômetro" mesmo não sabendo
